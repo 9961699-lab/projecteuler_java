@@ -7,7 +7,7 @@ public class Problem1 {
                 System.out.println("divisible by 3");
                 add = add + i;
             }
-            if (i % 5== 0) {
+            else if (i % 5== 0) {
                 System.out.println("divisible by 5");
                 add = add + i;
             }
